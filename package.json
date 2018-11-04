@@ -1,0 +1,36 @@
+{
+	"name": "tray",
+	"version": "1.0.0",
+	"description": "Tray Application on MacOS with nodeobjs",
+	"license": "MIT",
+	"repository": "https://github.com/ragingwind/tray",
+	"author": {
+		"name": "Jimmy Moon",
+		"email": "ragingwind@gmail.com",
+		"url": "https://ragingwind.me"
+	},
+	"bin": {
+		"chrome": "./dist/cli.js"
+	},
+	"engines": {
+		"node": "< 8"
+	},
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js"
+	},
+	"files": [
+		"dist",
+		"!dist/test*.js"
+	],
+	"keywords": [],
+	"dependencies": {
+		"nodobjc": "^2.1.0",
+		"opn": "^5.4.0"
+	},
+	"devDependencies": {
+		"@types/core-js": "^0.9.41",
+		"@types/node": "^8.10.37",
+		"typescript": "^2.3.4"
+	}
+}
