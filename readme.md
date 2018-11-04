@@ -4,4 +4,4 @@
 
 ## License
 
-MIT © CODEBUSKING
+MIT © Jimmy Moon
